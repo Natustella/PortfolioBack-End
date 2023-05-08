@@ -76,6 +76,11 @@
       <version>2.22.2</version>
       <configuration>
         <argLine>-Dfile.encoding=UTF-8</argLine>
+        <archive>
+            <manifest>
+                <mainClass>NhApplication</mainClass>
+            </manifest>
+        </archive>
       </configuration>
     </plugin>
   </plugins>
