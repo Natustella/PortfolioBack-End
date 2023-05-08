@@ -1,10 +1,10 @@
 package portfolio.nh.model;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 import lombok.Getter;
 import lombok.Setter;
@@ -17,27 +17,27 @@ public class Experiencia {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     
-    @NotNull
+    @Column(nullable = false)
     @Size(min = 1, max = 100)
     private String pos;
     
-    @NotNull
+    @Column(nullable = false)
     @Size(min = 1, max = 400)
     private String logo;
     
-    @NotNull
+    @Column(nullable = false)
     @Size(min = 1, max = 100)
     private String empresa;
     
-    @NotNull
+    @Column(nullable = false)
     @Size(min = 1, max = 100)
     private String desde;
     
-    @NotNull
+    @Column(nullable = false)
     @Size(min = 1, max = 100)
     private String hasta;
     
-    @NotNull
+    @Column(nullable = false)
     @Size(min = 1, max = 500)
     private String actividad;
 
