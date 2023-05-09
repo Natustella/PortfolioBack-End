@@ -23,7 +23,7 @@ public class CSkills {
     @Autowired
     private ISkillsService iSkills;
     
-    @GetMapping("s")
+    @GetMapping("/skills/lista")
     public ResponseEntity<List<Skills>> list() {
         List<Skills> skills = iSkills.getSkills();
         return new ResponseEntity<>(skills, HttpStatus.OK);
