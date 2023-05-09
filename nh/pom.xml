@@ -78,13 +78,12 @@
         <argLine>-Dfile.encoding=UTF-8</argLine>
         <archive>  
             <manifest>  
-                <mainClass>NhApplication</mainClass>  
+                <mainClass>portfolio.nh.NhApplication</mainClass>  
             </manifest>  
         </archive>  
       </configuration>
     </plugin>
   </plugins>
 </build>
-
 
 </project>
