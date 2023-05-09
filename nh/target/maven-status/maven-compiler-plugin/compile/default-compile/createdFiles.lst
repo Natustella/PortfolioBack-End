@@ -27,5 +27,6 @@ portfolio\nh\service\SPersona.class
 portfolio\nh\service\SProyecto.class
 portfolio\nh\service\IProyectoService.class
 portfolio\nh\service\SSkills.class
+portfolio\nh\WebConfig.class
 portfolio\nh\service\ISkillsService.class
 portfolio\nh\NhApplication.class
