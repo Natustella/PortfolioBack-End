@@ -17,13 +17,13 @@ import portfolio.nh.model.Skills;
 import portfolio.nh.service.ISkillsService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://portfolio-eb2dc.web.app/")
 public class CSkills {
     
     @Autowired
     private ISkillsService iSkills;
     
-    @GetMapping("/skills/lista")
+    @GetMapping("s")
     public ResponseEntity<List<Skills>> list() {
         List<Skills> skills = iSkills.getSkills();
         return new ResponseEntity<>(skills, HttpStatus.OK);

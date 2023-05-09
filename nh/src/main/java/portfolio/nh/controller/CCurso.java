@@ -17,7 +17,7 @@ import portfolio.nh.model.Curso;
 import portfolio.nh.service.ICursoService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://portfolio-eb2dc.web.app/")
 public class CCurso {
 
     @Autowired
