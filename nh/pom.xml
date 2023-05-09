@@ -72,17 +72,10 @@
     <build>
   <plugins>
     <plugin>
-      <artifactId>maven-surefire-plugin</artifactId>
-      <version>2.22.2</version>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
       <configuration>
         <argLine>-Dfile.encoding=UTF-8</argLine>
-        <archive>
-          <manifest>
-            <addClasspath>true</addClasspath>
-            <classpathPrefix>lib/</classpathPrefix>
-            <mainClass>portfolio.nh.NhApplication</mainClass>
-          </manifest>
-        </archive>
       </configuration>
     </plugin>
   </plugins>
