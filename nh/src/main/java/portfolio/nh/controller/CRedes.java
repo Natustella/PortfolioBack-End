@@ -18,7 +18,7 @@ import portfolio.nh.service.IRedesService;
 
 
 @RestController
-@CrossOrigin(origins = "https://portfolio-eb2dc.web.app/")
+@CrossOrigin(origins = "https://portfolio-eb2dc.web.app")
 public class CRedes {
     
     @Autowired

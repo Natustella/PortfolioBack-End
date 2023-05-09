@@ -17,7 +17,7 @@ import portfolio.nh.model.Skills;
 import portfolio.nh.service.ISkillsService;
 
 @RestController
-@CrossOrigin(origins = "https://portfolio-eb2dc.web.app/")
+@CrossOrigin(origins = "https://portfolio-eb2dc.web.app")
 public class CSkills {
     
     @Autowired

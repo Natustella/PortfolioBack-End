@@ -17,7 +17,7 @@ import portfolio.nh.model.Experiencia;
 import portfolio.nh.service.IExperienciaService;
 
 @RestController
-@CrossOrigin(origins = "https://portfolio-eb2dc.web.app/")
+@CrossOrigin(origins = "https://portfolio-eb2dc.web.app")
 public class CExperiencia {
     
     @Autowired

@@ -14,7 +14,7 @@ import portfolio.nh.model.MPersona;
 import portfolio.nh.service.IPersonaService;
 
 @RestController
-@CrossOrigin(origins = "https://portfolio-eb2dc.web.app/")
+@CrossOrigin(origins = "https://portfolio-eb2dc.web.app")
 public class CPersona {
     
     @Autowired

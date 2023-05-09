@@ -17,7 +17,7 @@ import portfolio.nh.model.Proyecto;
 import portfolio.nh.service.IProyectoService;
 
 @RestController
-@CrossOrigin(origins = "https://portfolio-eb2dc.web.app/")
+@CrossOrigin(origins = "https://portfolio-eb2dc.web.app")
 public class CProyecto {
     
     @Autowired
